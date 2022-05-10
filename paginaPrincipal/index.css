@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #141414;
+}
+
+header {
+    color: #f91212;
+    margin-left: 45px;
+    margin-top: 5px;
+}
+
+main {
+    
+    width: 100%;
+    color: #fff;
+    font-size: 2.0vw;
+    font-weight: unset;
+    padding-left: 35%;
+    padding-top: 13%;
+    
+}
+.fotouser{
+    display: flex;
+    flex-direction: row;
+}
+.user5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1400px;
+}
+.fotouser{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+
+}
+.nome{
+    font-family: 'Macondo', cursive;
+    color: white;
+    font-family: 'Macondo', cursive;
+    display: flex;
+    justify-content: center;
+}
+header:hover{
+    transform: scale(1.1);
+    transform: rotate(360deg); 
+    transition: all 3.9s;
+}
+.fotouser:hover{
+    transform: scale(1.01);
+    transition: all 5.9s; 
+}
